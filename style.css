@@ -1,0 +1,411 @@
+body{
+    font-family: Nunito;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+.menu li a.w,.g {
+    margin-right: 15px;
+    color:rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+.menu li a.w:hover{
+ color: #191414;
+}
+.sing-up-list li a:hover{
+    color: #1ED760;
+}
+.menu .down{
+    margin-left: 57px;
+    margin-right: 0;
+    
+}
+.down a{
+    color: rgba(74, 74, 74, 0.8);
+    text-decoration: none;
+}
+.down a:hover{
+    color: #1ED760;
+}
+.round{
+    position: absolute;
+    height: 200px;
+    width: 340px;
+    right: 0px;
+    top: 0px;
+    border-radius: 6% 0% 12% 95%;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: -1;
+}
+.sing-up-list{
+    font-weight: 700;
+    margin-right: 123px;
+}
+.sing-up-list li {
+    margin-right: 28px;
+
+}
+.sing-up-list li a{
+    color: rgba(74, 74, 74, 1);
+}
+.mt{
+    margin-top: 28px;
+}
+.textbox{
+    display: flex;
+    max-width: 537px;
+    flex-direction: column;
+    margin-left: 55px;
+}
+.textbox h3{
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 12px;
+    align-items: flex-start;
+    
+}
+.textbox h1{
+    font-family: Nunito;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 73px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 31px;
+
+}
+.textbox h1 span{
+    font-family: Nunito;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 73px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.textbox p{
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;    
+    margin-bottom: 75px;
+}
+.textbox a{
+    
+    height: 74px;
+    width: 360px;
+    border-radius: 42px;
+    
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    align-self: center;
+    background: #1ED760;
+    color:rgba(255, 255, 255, 1);    
+    padding: 15px;
+    text-decoration: none;
+    animation-timing-function: cubic-bezier(Ease Out);
+    animation-duration: 50ms;
+    box-shadow: 1px 0px 6px 2px rgba(26, 99, 52, 0.25);
+
+}
+.textbox a:hover{
+    color: #000;
+    animation-duration: 500ms;
+}
+.model-pos{
+    
+    margin-top: 207px;
+    
+}
+.model-div{
+    position: absolute;
+    height: 916px;
+    width: 872px;
+    right:0;
+    top: 0;
+    border-radius: 410px 0 410px 33px;
+    background: rgba(30, 215, 96, 1);    
+    z-index: -3;
+}
+.model{
+    position: absolute;
+    right: 120px;
+    top: 127px;
+    z-index: -2;
+}
+
+.headphones-cont{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 373px;
+    height: 634px;
+    width: 100%;
+    border-radius: 0 317px 0 317px;
+    background:url("img/spotify-keeps-crashing\ 1.svg") no-repeat center right, #1B1B1B;
+    background-blend-mode: lighten;
+    
+    position: relative;
+    z-index: -2;
+}
+.headphones-textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 138px;
+}
+
+.headphones-textbox h3{
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.headphones-textbox h1{
+    font-family: Nunito;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    height: 144px;
+    width: 545px;
+    margin-bottom: 31px;
+    color: #fff;
+
+}
+.headphones-textbox h1 span{
+    font-family: Nunito;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 75px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left: 95px;
+}
+.headphones-textbox p {
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    width:554px ;
+    margin-bottom: 78px;
+}
+.headphones-textbox a{
+    background: rgba(30, 215, 96, 1);
+    box-shadow: 1px 0px 6px 2px rgba(26, 99, 52, 0.25);
+    height: 74px;
+    border-radius: 42px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.055em;
+    text-align: center;
+    display: flex;
+    align-self: center;
+}
+.headphones-textbox a:hover{
+    color: #000;
+}
+.headphone{
+    position: absolute;
+    right: 99px;
+    z-index: -1;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+}
+.Spotify_logo_grey{
+    align-self: flex-start;
+}
+.links{
+    display: flex;
+    align-self: center;
+    margin-top: 39px;
+}
+.col-lists{
+    list-style: none;
+    margin-right: 121px;
+}
+.second-li{
+    margin-top: 32.08px;
+}
+.main-lists{
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    margin: 0;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+.second-lists{
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    color: rgba(74, 74, 74, 1);
+}
+.second-lists:hover{
+    color:rgba(30, 215, 96, 1);
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    height: 77px;
+
+}
+.socials-media{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+.socials-media li{
+    margin-right: 36px;
+}
+.socials-media li a{
+    text-decoration: none;
+}
+/* .socials-media li:nth-child(1) a img::before{
+    content: url("img/Twitter-after.svg");
+    position: absolute;
+} */
+.socials-media li:nth-child(3) {
+    display: flex;
+    min-width: 55px;
+    padding-top: 5px;
+    min-height: 56px;
+    align-items: center;
+}
+.country{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0;
+}
+.country li:nth-child(odd) a{
+    margin-right: 39px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    color: rgba(13, 13, 13, 1);    
+    text-decoration: none;
+}
+.country li:nth-child(2) a  {
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    color: rgba(13, 13, 13, 1);    
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.country li:nth-child(2) a:hover{
+    color: #1ED760;
+}
+.country li:nth-child(2) a  img{
+    margin-right: 8px;
+}
+footer{
+    width: 100%;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(13, 13, 13, 1);
+}
+.footer-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-ul li:nth-child(1){
+    margin-right: 47px;
+}
+.footer-ul li:nth-child(2){
+    margin-right: 40px;
+}
+.footer-ul li:nth-child(3){
+    margin-right: 41px;
+}
+.footer-ul li:nth-child(4){
+    margin-right: 42px;
+}
+.footer-ul li:nth-child(5){
+    margin-right: 33px;
+}
+/* .footer-ul li:nth-child(6){
+    margin-right: 47px;
+} */
+.footer-ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0.055em;
+    
+}
+.footer-ul li a:hover {
+    color: #1ED760;
+
+}
