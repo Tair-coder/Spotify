@@ -1,0 +1,17 @@
+.container{
+    position: relative;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px #363636;
+}
+.title{
+    font-size: 50px;
+}
